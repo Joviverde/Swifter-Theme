@@ -1,0 +1,35 @@
+.message-group:not(.compact) .avatar-large[style*="ID"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="ID"] ~ .member-inner .member-username .member-username-inner::after{content:"TAG";background:color;color:#fff;border-radius:3px;border: 1px solid #672382;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
+
+.message-group:not(.compact) .avatar-large[style*="217605962247307264"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="217605962247307264"] ~ .member-inner .member-username .member-username-inner::after{content:"Arianator";color:#fff;background:#c1a9c0;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:14px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;}
+
+.message-group:not(.compact) .avatar-large[style*="277553821939662849"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="277553821939662849"] ~ .member-inner .member-username .member-username-inner::after{content:"Arianator";color:#fff;background:#c1a9c0;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:14px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;}
+
+@keyframes hue-rotate{from{-webkit-filter:hue-rotate();}to{-webkit-filter:hue-rotate(360deg);}}
+
+/*cube_guy's Triforce Tag*/
+.message-group:not(.compact) .avatar-large[style*="131903461771051009"] ~ .comment .message h2 span.username-wrapper::before{
+    content: "`";
+    background-image: url(https://rawgit.com/cubeguy/cube_repo/master/icons/Discord_Tag.gif);
+    background-size: 25px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    width: 0px;
+    left: -3px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    line-height: 16px !important;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: -28px;
+}
+.message-group .avatar-large[style*="131903461771051009"]{
+    box-shadow: 0px 0px 0px 0px !important;
+}
+.message-group:not(.compact) .avatar-large[style*="131903461771051009"] ~ .comment .message h2 .timestamp {
+    margin-left: 4px;
+}
+.chat .avatar-large[style*="131903461771051009"] ~ .comment .message h2 {
+    transform: translateX(30px);
+}
